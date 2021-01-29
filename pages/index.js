@@ -2,10 +2,13 @@ import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import db from '../db.json';
 import Widget from '../src/components/Widget';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+
 
 
 // const BackgroundImage = styled.div`
@@ -40,20 +43,22 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>Teste seus conhecimentos sobre a série Atypical.</p>
-            <form onSubmit={function (infosDoEvento) {
+            <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}
             >
-            <Widget.Input 
-              onChange={function (infosDoEvento) {
+            <Input
+              name="nomeDoUsuario"
+              onChange={(infosDoEvento) => {
                 setName(infosDoEvento.target.value);
               }}
               placeholder="Digite seu nome para jogar :)"
+              value={name}
             />
-            <Widget.Buttom type="submit" disable={name.lenght === 0}>
-              Jogar {name}
-            </Widget.Buttom>
+            <Button type="submit" disabled={name.length === 0}>
+              {`Jogar ${name}`}
+            </Button>
             </form>
           </Widget.Content>
         </Widget>
