@@ -1,29 +1,119 @@
 {
     "bg": "https://i.pinimg.com/originals/48/af/74/48af7401575623219543ff529798945d.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz Atypical",
+    "description": "Teste os seus conhecimentos sobre a série Atypical!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://data.whicdn.com/images/296459081/original.jpg?t=1534274349",
+        "title": "O que significa Atypical?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Típico",
+          "Atípico"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://olharesdoautismo.com.br/wp-content/uploads/2019/11/72f074ae054f5124cfd4814fe8552a19.jpg",
+        "title": "Qual é o nome do protagonista?",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Sam Gardner",
+           "Paige Hardaway",
+           "Zahid"
         ]
+      },
+      {
+        "image": "https://i.ytimg.com/vi/rpeZ9KD7z7Y/maxresdefault.jpg",
+        "title": "Qual é o nome da namorada do Sam?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Casey Gardner",
+           "Julia Sasaki",
+           "Beth Chapin",
+           "Paige Hardaway"
+        ]
+      },
+      {
+        "image": "https://i.glbimg.com/og/ig/infoglobo/f/original/2017/09/14/atypical.jpg",
+        "title": "Sam Gardner foi diagnosticado com:",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Hiperatividade",
+           "Autismo",
+           "Depressão"
+        ]
+      },
+      {
+        "image": "https://decider.com/wp-content/uploads/2017/08/atypical-amy-okuda.png?w=646&h=431&crop=1",
+        "title": "Julia Sasaki é a _____________ de Sam. Qual palavra abaixo preenche o espaço vazio?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Dentista",
+           "Professora",
+           "Terapeuta"
+        ]
+      },
+      {
+        "image": "https://static.hollywoodreporter.com/sites/default/files/2017/10/2_gettyimages-827456106-h_2017-928x523.jpg",
+        "title": "Quem é a criadora e escritora da série?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+           "Robia Rashid",
+           "Annabel Oakes"        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5bcfd07e0bdeb9.04642894.jpg?lastEdited=1540345984",
+        "title": "Quais são os nomes dos personagens acima? (respectivamente)",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Elsa, Nick, Sam e Paige",
+           "Elsa, Doug, Sam e Casay"        
+          ]
+      },
+      {
+        "image": "https://marsemfim.com.br/wp-content/uploads/2020/03/ab-c%C3%B3pia.jpg",
+        "title": "Em meio à uma crise ou ataque Sam repete incansavelmente as quatro espécies de pinguins",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Adália, Ártico, Império, Gentu",
+           "Adélia, Antártico, Imperador, Gentoo",
+           "Ridgen, Antártico, Imperador, Gentoo"        
+          ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/79/d8/14/79d814b619ad4b5e8a2a9e6f6b4a0468.jpg",
+        "title": "Qual o continente favorito de Sam?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Ásia",
+           "Europa",
+           "Oceania",
+           "Antártida",
+           "África",
+           "América"        
+          ]
+      },
+      {
+        "image": "https://i0.wp.com/www.dailycal.org/assets/uploads/2018/10/Atypical_Netflix.Courtesy-1.jpg?ssl=1",
+        "title": "Quem deixou a família por 8 meses?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "A irmã de Sam",
+           "O pai de Sam",
+           "A mãe de Sam",
+           "Ninguém",
+           "O Sam"  
+          ]
       }
     ],
     "external": [
