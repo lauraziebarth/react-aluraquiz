@@ -92,6 +92,8 @@ export default function QuizPage() {
                 />
             </QuizContainer>
         </QuizBackground>
+
+        //lalala
     );
 }
 
